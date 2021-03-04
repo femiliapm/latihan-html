@@ -10,20 +10,20 @@
 </head>
 
 <body>
-  <header>
+  <header id="home">
     <div>
       <div class="logo">
         <img src="/assets/logo.png">
       </div>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#section-1">Home</a></li>
         <li><a href="#">About US</a></li>
         <li><a href="#">Service</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
     </div>
     <div class="title">
-      <h1>Hello World Selamat Pagi</h1>
+      <h1 style="color: red;">Hello World Selamat Pagi</h1>
     </div>
     <div class="button">
       <a href="#" class="btn">LEARN MORE</a>
@@ -31,7 +31,9 @@
   </header>
   <main>
     <div class="flex-container">
-      <div class="flex-item">Section 1</div>
+      <div id="section-1" class="flex-item">
+        <a href="#home">Section 1 ini content dengan isi yang banyak atau panjang</a>
+      </div>
       <div class="flex-item">Section 2</div>
       <div class="flex-item">Section 3</div>
     </div>
@@ -41,6 +43,21 @@
     <p class="paragraf1">ini adalah paragraf yang pertama</p>
     <p id="content">ini adalah paragraf yang kedua</p>
   </div>
+  <hr>
+  <table>
+    <thead>
+      <tr>
+        <th>Nama</th>
+        <th>Alamat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Femilia</td>
+        <td>Jakarta</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 
 </html>
