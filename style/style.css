@@ -87,7 +87,7 @@ ul li a:hover {
   display: flex;
   font-size: 30px;
   text-align: center;
-  flex-direction: column;
+  flex-direction: row;
   margin: 30px;
   align-items: center;
 }
@@ -96,5 +96,20 @@ ul li a:hover {
   background-color: aquamarine;
   padding: 15px;
   margin: 10px;
-  /* flex: 1; */
+  flex: 1;
+}
+
+@media(max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .flex-item {
+    background-color: black;
+    color: white;
+  }
+
+  ul li a {
+    display: none;
+  }
 }
